@@ -13,6 +13,8 @@
   --text-dark-color: rgb(255, 255, 255, 0.6);
 }
 
+/* Утилиты */
+
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
@@ -25,6 +27,8 @@ a {
 }
 
 ul {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -48,14 +52,36 @@ ul {
 
 /* header */
 
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.link-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.link-nav .item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .contact-nav {
+  display: flex;
+  margin-left: auto;
   color: var(--title-text-color);
+}
+
+.contact-nav .item + .item {
+  margin-left: 50px;
 }
 
 .link:hover,
