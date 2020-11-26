@@ -30,6 +30,8 @@ a {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
   margin: 0 auto;
 }
 
@@ -220,7 +222,27 @@ ul {
 
 /* Section portfolio */
 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.portfolio-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.portfolio-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
 .portfolio-title {
+  margin: 20px 24px 4px;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -229,6 +251,7 @@ ul {
 }
 
 .portfolio-description {
+  margin: 0 24px 20px;
   color: var(--title-text-color);
   font-weight: 400;
   font-size: 16px;
