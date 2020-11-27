@@ -27,7 +27,7 @@ a {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -109,6 +109,7 @@ ul {
 }
 
 .title-hero {
+  margin: 200px 452px 40px;
   color: var(--text-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -149,9 +150,23 @@ ul {
   margin-right: 30px;
 }
 
+/* Section Чем мы занимаемся */
+
+.list-work {
+  display: flex;
+  align-items: center;
+  margin-bottom: 94px;
+}
+
+.list-work .item-work:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* Section our team */
 
 .title-section {
+  margin-bottom: 50px;
+  margin-top: 0;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
