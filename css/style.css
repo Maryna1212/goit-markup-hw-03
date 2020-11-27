@@ -174,11 +174,24 @@ ul {
   letter-spacing: 0.03em;
 }
 
+.team-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 94px;
+}
+
+.team-list .team-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .title-team {
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .team-profession {
@@ -186,6 +199,8 @@ ul {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-align: center;
+  margin-top: 0;
 }
 
 /* button */
