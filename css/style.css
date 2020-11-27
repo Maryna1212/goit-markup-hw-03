@@ -184,6 +184,10 @@ ul {
   margin-right: 30px;
 }
 
+.team-item {
+  padding-bottom: 30px;
+}
+
 .title-team {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -195,12 +199,12 @@ ul {
 }
 
 .team-profession {
+  margin-top: 0;
   color: var(--title-text-color);
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-top: 0;
 }
 
 /* button */
@@ -220,6 +224,13 @@ ul {
 
 .footer {
   background-color: var(--c-dark-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
 }
 
 .address-footer {
@@ -231,8 +242,20 @@ ul {
 }
 
 .contact-address {
+  margin-top: 20px;
+  margin-bottom: 9px;
   color: var(--text-white-color);
 }
+
+.contact-address p {
+  margin: 0;
+}
+
+.footer-mail {
+  margin-bottom: 9px;
+}
+
+/* Button Portfolio */
 
 .button-portfolio {
   background-color: var(--c-light-grey-color);
