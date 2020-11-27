@@ -138,8 +138,8 @@ ul {
 
 .features {
   display: flex;
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .features .feature-item {
@@ -155,7 +155,7 @@ ul {
 .list-work {
   display: flex;
   align-items: center;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .list-work .item-work:not(:last-child) {
@@ -177,7 +177,7 @@ ul {
 .team-list {
   display: flex;
   align-items: center;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .team-list .team-item:not(:last-child) {
