@@ -105,6 +105,8 @@ ul {
 /* Section Hero */
 
 .section-hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--c-dark-color);
 }
 
@@ -292,6 +294,10 @@ ul {
 
 .portfolio-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
+}
+
+.link-portfolio {
+  display: block;
 }
 
 .portfolio-title {
