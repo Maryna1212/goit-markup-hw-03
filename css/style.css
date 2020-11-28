@@ -301,7 +301,7 @@ ul {
 }
 
 .portfolio-title {
-  margin: 20px 24px 4px;
+  margin-bottom: 4px;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -310,10 +310,33 @@ ul {
 }
 
 .portfolio-description {
-  margin: 0 24px 20px;
   color: var(--title-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+
+/* Card */
+
+.card {
+  width: 370px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+}
+
+.card-image {
+  display: block;
+}
+
+.card-content {
+  padding: 20px 24px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
