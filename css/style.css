@@ -70,13 +70,13 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .link-nav {
   display: flex;
   margin-left: 93px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .link-nav .item:not(:last-child) {
@@ -86,6 +86,8 @@ ul {
 .contact-nav {
   display: flex;
   margin-left: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--title-text-color);
 }
 
@@ -105,13 +107,14 @@ ul {
 /* Section Hero */
 
 .section-hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding: 200px 0;
+  text-align: center;
   background-color: var(--c-dark-color);
 }
 
 .title-hero {
-  margin: 200px 452px 40px;
+  margin-bottom: 30px;
+  margin-top: 0;
   color: var(--text-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -209,17 +212,16 @@ ul {
   text-align: center;
 }
 
-/* button */
-
 .button {
+  display: inline-block;
+  padding: 10px 32px;
   background-color: var(--accent-color);
   color: var(--text-white-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
+  border-radius: 4px;
 }
 
 /* Footer */
