@@ -257,29 +257,12 @@ ul {
   margin-bottom: 9px;
 }
 
-/* Button Portfolio */
-
-.button-portfolio {
-  background-color: var(--c-light-grey-color);
-  color: var(--primary-text-color);
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-}
-
-.button-portfolio:hover,
-.button-portfolio:focus {
-  background-color: var(--accent-color);
-  color: var(--text-white-color);
-}
-
 /* Section Hero Portfolio */
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 94px;
 }
 
 .portfolio-item {
@@ -315,6 +298,37 @@ ul {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+
+/* Button Portfolio */
+
+.portfolio-list-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.button-portfolio {
+  padding: 6px 22px;
+  background-color: var(--c-light-grey-color);
+  color: var(--primary-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--accent-color);
+  color: var(--text-white-color);
+}
+
+.portfolio-list-button .button-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 /* Card */
