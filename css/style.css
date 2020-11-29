@@ -262,6 +262,7 @@ ul {
 /* Section Hero Portfolio */
 
 .portfolio-hero {
+  padding-top: 94px;
   border-top: 1px solid #ececec;
 }
 
