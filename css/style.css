@@ -261,6 +261,10 @@ ul {
 
 /* Section Hero Portfolio */
 
+.portfolio-hero {
+  border-top: 1px solid #ececec;
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
